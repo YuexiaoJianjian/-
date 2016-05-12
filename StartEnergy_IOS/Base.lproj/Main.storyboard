@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f5T-BL-Da1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Update View Controller-->
+        <scene sceneID="Bv5-wA-hba">
+            <objects>
+                <viewController id="f5T-BL-Da1" customClass="UpdateViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cbd-Pd-hvc"/>
+                        <viewControllerLayoutGuide type="bottom" id="cLO-Op-8tl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="69N-CV-Dj2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="掌上电力宝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aC-Ov-Bsi">
+                                <rect key="frame" x="20" y="578" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="....." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc2-N6-8nn">
+                                <rect key="frame" x="159" y="542" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="正在连接服务器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOr-Vu-ljd">
+                                <rect key="frame" x="20" y="513" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Copyright © 2016 State Grid Corporation of China. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4Bf-6K-Yc0">
+                                <rect key="frame" x="20" y="626" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.066666666666666666" green="0.54117647058823526" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Bf-6K-Yc0" secondAttribute="trailing" constant="-20" id="2Qd-W6-bKO"/>
+                            <constraint firstItem="Gc2-N6-8nn" firstAttribute="top" secondItem="HOr-Vu-ljd" secondAttribute="bottom" constant="5" id="4tR-3O-wnz"/>
+                            <constraint firstItem="4Bf-6K-Yc0" firstAttribute="leading" secondItem="69N-CV-Dj2" secondAttribute="leadingMargin" id="9Th-m7-vt6"/>
+                            <constraint firstItem="4Bf-6K-Yc0" firstAttribute="leading" secondItem="69N-CV-Dj2" secondAttribute="leadingMargin" id="COq-mg-1Nx"/>
+                            <constraint firstItem="4Bf-6K-Yc0" firstAttribute="centerX" secondItem="69N-CV-Dj2" secondAttribute="centerX" id="RT7-cE-jvU"/>
+                            <constraint firstItem="HOr-Vu-ljd" firstAttribute="centerX" secondItem="69N-CV-Dj2" secondAttribute="centerX" id="Sp5-6B-BYc"/>
+                            <constraint firstItem="3aC-Ov-Bsi" firstAttribute="top" secondItem="Gc2-N6-8nn" secondAttribute="bottom" constant="15" id="eFa-zj-Ffz"/>
+                            <constraint firstItem="Gc2-N6-8nn" firstAttribute="centerX" secondItem="69N-CV-Dj2" secondAttribute="centerX" id="fKB-Mj-kUt"/>
+                            <constraint firstItem="4Bf-6K-Yc0" firstAttribute="leading" secondItem="69N-CV-Dj2" secondAttribute="leadingMargin" constant="-20" id="gr2-kl-YTL"/>
+                            <constraint firstItem="cLO-Op-8tl" firstAttribute="top" secondItem="4Bf-6K-Yc0" secondAttribute="bottom" constant="20" id="jZo-fg-cp8"/>
+                            <constraint firstItem="HOr-Vu-ljd" firstAttribute="centerX" secondItem="69N-CV-Dj2" secondAttribute="centerX" id="lnI-0s-LKn"/>
+                            <constraint firstItem="4Bf-6K-Yc0" firstAttribute="trailing" secondItem="69N-CV-Dj2" secondAttribute="trailingMargin" id="pzD-Y9-xXS"/>
+                            <constraint firstItem="4Bf-6K-Yc0" firstAttribute="top" secondItem="3aC-Ov-Bsi" secondAttribute="bottom" constant="30" id="qAY-8M-Vu7"/>
+                            <constraint firstItem="3aC-Ov-Bsi" firstAttribute="centerX" secondItem="69N-CV-Dj2" secondAttribute="centerX" id="z50-Ew-vBl"/>
+                            <constraint firstItem="3aC-Ov-Bsi" firstAttribute="centerX" secondItem="69N-CV-Dj2" secondAttribute="centerX" id="zLP-i0-bHA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2Qd-W6-bKO"/>
+                                <exclude reference="COq-mg-1Nx"/>
+                                <exclude reference="RT7-cE-jvU"/>
+                                <exclude reference="gr2-kl-YTL"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="ProcessPoint" destination="Gc2-N6-8nn" id="aEQ-wo-s8s"/>
+                        <outlet property="UpdateMsg" destination="HOr-Vu-ljd" id="BBO-O4-PhD"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="MainWebView" id="4bV-Br-YZ1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftv-at-KXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816.5" y="756.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6jK-zC-f5r"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1336.5" y="756.5"/>
+        </scene>
+    </scenes>
+</document>
